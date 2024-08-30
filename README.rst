@@ -1,6 +1,6 @@
-===
+============
 Introduction
-===
+============
 
 Remote PDB used in pytorch distributed environment (Megatron-LM).
 
@@ -9,9 +9,10 @@ Remote PDB used in pytorch distributed environment (Megatron-LM).
 installation
 ============
 
-Prerequsite:
+**Prerequsite**:
 
 ::
+
     sudo apt-get update && apt-get install socat rlwrap
 
 See examples in [CUDA12 dockerfile](https://github.com/yiakwy-xpu-ml-framework-team/dockerhub/blob/main/cuda/Dockerfile.megatron-lm.ubuntu-22.04)
